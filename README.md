@@ -44,6 +44,9 @@ python paddle.py -i document.pdf
 
 The resulting .json files are in the folder output-json by default.
 
+### Post-Processing
+To further process the json files, conv2md.sh and combine2.py are provided. combine2.py uses the possibly problematic `ast.literal_eval` and was created by AI (same model as above), too.
+
 ### CLI interface
 ```
 python paddle.py --help
