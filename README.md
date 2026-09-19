@@ -17,7 +17,7 @@ The following code snippets assume python envs are lying under ~/.avenv and pyth
 The rocm and torch versions are subject to change. The code snippeds are copied from [the official rocm.docs.amd.com](https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/frameworks/pytorch/install.html?fam=ryzen&gpu=amd-ryzen-ai-9-hx-475&os=linux&rocm-ver=10.0.0&pytorch-ver=2.13.0&i=pip&w=compute&gfx=gfx1150).
 
 ```bash
-python3.12 -m venv ~/.avenv/paddleocr
+python3.14 -m venv ~/.avenv/paddleocr
 source ~/.avenv/paddleocr/bin/activate
 pip install --index-url https://stable.repo.amd.com/rocm/whl-next/ \
     "torch[device-gfx1150]==2.12.0+rocm10.0.0" \
